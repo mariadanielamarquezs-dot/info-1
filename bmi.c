@@ -10,7 +10,18 @@ int main(void) {
 	float imc;
 	imc = peso / (altura * altura); 
 	printf("Su indice de masa corporal es: %f\n\n\n", imc);
-	
+	if (imc<18,5) {
+		printf("Su condicion es: Bajo Peso");
+	}
+	else if (imc>18,5&&imc<24,9) {
+		printf("Su condicion es: Normal);
+			}
+			else if (imc>25&&imc<29,9) {
+			printf("Su condicion es: Sobrepeso");
+	}
+	else if (imc>=30) {
+		printf("Su condicion es: Obesidad");
+	}
 	printf("Indice      |      Condicion\n"); 
 	printf("=============================\n");
 	printf(" <18,5      |      Bajo Peso\n 18,5 a 24,9|      Normal\n 25,0 a 29,9|      Sobrepeso\n =>30       |      Obesidad\n");
