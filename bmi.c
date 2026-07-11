@@ -7,14 +7,14 @@ int main(void) {
 	printf("Ingrese su peso en kg: ");
 	scanf("%f", &peso);
 		if (peso<=0) {
-			printf("Error, ingrese un numero valido.");
+			printf("Error, ingrese un numero valido.\n");
 		}
 	} while (peso<=0);
 	do {
 	printf("Ingrese su altura en metros: ");
 	scanf("%f", &altura);
 		if (altura<=0) {
-			printf("Error, ingrese un numero valido.");
+			printf("Error, ingrese un numero valido.\n");
 		}
 	} while (altura<=0);
 	float imc;
