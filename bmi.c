@@ -37,7 +37,8 @@ int main(void) {
 	else if (imc>=30) {
 		printf("Su condicion es: Obesidad");
 	}
-	
+
+	//https://github.com/mariadanielamarquezs-dot/info-1/edit/mariadanielamarquezs-dot-patch-1/bmi.c
 	
 	return 0;
 }
