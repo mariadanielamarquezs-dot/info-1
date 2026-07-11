@@ -3,10 +3,20 @@
 int main(void) {
 	float peso;
 	float altura;
+	do{ 
 	printf("Ingrese su peso en kg: ");
 	scanf("%f", &peso);
+		if (peso<=0) {
+			printf("Error, ingrese un numero valido.");
+		}
+	} while (nota<=0);
+	do {
 	printf("Ingrese su altura en metros: ");
 	scanf("%f", &altura);
+		if (altura<=0) {
+			printf("Error, ingrese un numero valido.");
+		}
+	} while (altura<=0);
 	float imc;
 	imc = peso / (altura * altura); 
 	printf("Su indice de masa corporal es: %f\n\n\n", imc);
