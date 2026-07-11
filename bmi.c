@@ -9,7 +9,7 @@ int main(void) {
 		if (peso<=0) {
 			printf("Error, ingrese un numero valido.");
 		}
-	} while (nota<=0);
+	} while (peso<=0);
 	do {
 	printf("Ingrese su altura en metros: ");
 	scanf("%f", &altura);
